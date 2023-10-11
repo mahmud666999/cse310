@@ -45,4 +45,14 @@ public class Transactions {
     private void setBalance(int balance) {
         this.balance = balance;
     }
+
+    @Override
+    public String toString() {
+        return "Transactions{" +
+                "date=" + date +
+                ", type='" + type + '\'' +
+                ", amount=" + amount +
+                ", balance=" + balance +
+                '}';
+    }
 }
